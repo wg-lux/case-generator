@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "agl-case-generator"
+version = "0.1.0"
+description = ""
+authors = ["Thomas J. Lux"]
+license = "GNU3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^5.0.4"
+gunicorn = "^22.0.0"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+scipy = "^1.13.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

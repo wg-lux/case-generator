@@ -1,7 +1,7 @@
 {
   description = "Application packaged using poetry2nix";
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
     cachix = {
       url = "github:cachix/cachix";
       inputs.nixpkgs.follows = "nixpkgs";
